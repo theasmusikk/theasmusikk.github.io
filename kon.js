@@ -23,8 +23,8 @@ var urls = {
     },
     'andre': {
       'url': 'https://bit.ly/blinke-blinke-stjernelill?r=lp',
-      'gad_id': '',
-      'gad_val': 0
+      'gad_id': 'AW-11140570940/wKh5CMar-5kYELy-nsAp',
+      'gad_val': 0.0001
     },
     'instagram': {
       'url': 'https://www.instagram.com/theasmusikk/',
@@ -51,3 +51,5 @@ if (url_s=="g"){
   gtag('js', new Date());
   gtag('config', gad_ID);
 }
+
+
