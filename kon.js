@@ -50,7 +50,7 @@ if (url_s=="g"){
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', gad_ID);
-} elif (url_s=="f"){
+} elif (url_s=="m"){
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
