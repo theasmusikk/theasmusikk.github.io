@@ -28,7 +28,7 @@
         return false;
       }else if (url_s=="m" && m_type.length>1){
         fbq('track', 'AddToCart', {
-          content_name: linkname, 
+          content_name: linkName, 
           content_type: m_type
         }); 
         callback();
