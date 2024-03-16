@@ -30,7 +30,7 @@
         fbq('track', 'ViewContent', {
           content_name: linkName, 
           content_type: m_type,
-          content_ids: m_id
+          content_ids: [m_id.toString()]
         }); 
         callback();
       }else{
