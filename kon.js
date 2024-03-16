@@ -20,6 +20,12 @@ var urls = {
       'gad_val': 0.01,
       'm_content_type': 'streaming'
     },
+    'tidal': {
+      'url': 'https://tidal.com/browse/track/280593811', 
+      'gad_id': 'AW-11140570940/UB6LCKbV65kYELy-nsAp',
+      'gad_val': 0.01,
+      'm_content_type': 'streaming'
+    },
     'youtubemusic': {
       'url': 'https://music.youtube.com/watch?v=AflZLAKpTbw&si=CCE5EUGJCx_s_TFR', //'https://music.youtube.com/channel/UCF7ZKFhkEaEkeow-Tmd9frA?feature=share',
       'gad_id': 'AW-11140570940/juhECKnV65kYELy-nsAp',
