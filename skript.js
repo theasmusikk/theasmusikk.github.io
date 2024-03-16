@@ -3,6 +3,7 @@
     var url = urls[linkName]['url'];
     var gad_id = urls[linkName]['gad_id'];
     var gad_val = urls[linkName]['gad_val'];
+    var m_type = urls[linkName]['m_content_type'];
 
     
       var callback = function () {
@@ -25,6 +26,12 @@
             'event_callback': callback
         });
         return false;
+      }else if (url_s=="m" && m_type.length>1){
+        fbq('track', 'AddToCart', {
+          content_name: linkname, 
+          content_type: m_type
+        }); 
+        callback();
       }else{
         callback();
       }
