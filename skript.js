@@ -4,7 +4,7 @@
     var gad_id = urls[linkName]['gad_id'];
     var gad_val = urls[linkName]['gad_val'];
     var m_type = urls[linkName]['m_content_type'];
-
+    var m_id = urls[linkName]['m_id'];
     
       var callback = function () {
         if (typeof(url) != 'undefined') {
@@ -27,9 +27,10 @@
         });
         return false;
       }else if (url_s=="m" && m_type.length>1){
-        fbq('track', 'AddToCart', {
+        fbq('track', 'ViewContent', {
           content_name: linkName, 
-          content_type: m_type
+          content_type: m_type,
+          content_ids: m_id
         }); 
         callback();
       }else{
