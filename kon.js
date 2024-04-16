@@ -3,7 +3,7 @@
 
 var urls = {
     'spotify': {
-      'url': 'https://open.spotify.com/track/0CJDroZzR6PNalEaAsJJm0?si=4f2ab6208ac74103', //'https://spoti.fi/3ZdtBHQ?r=lp'
+      'url': 'https://open.spotify.com/track/5W1U6DyePzEIgd7mh2w7H3?si=4f2ab6208ac74103',//'https://open.spotify.com/track/0CJDroZzR6PNalEaAsJJm0?si=4f2ab6208ac74103', //'https://spoti.fi/3ZdtBHQ?r=lp'
       'gad_id': 'AW-11140570940/qrN6CKDV65kYELy-nsAp',
       'gad_val': 0.01,
       'm_id': 1,
@@ -17,7 +17,7 @@ var urls = {
       'm_content_type': 'some'
     },
     'applemusic': {
-      'url': 'https://music.apple.com/no/album/hjulene-p%C3%A5-bussen/1676160459?i=1676160460', //'https://apple.co/3K1bXS1?r=lp',
+      'url': 'https://music.apple.com/us/album/abc-alfabetsangen-single/1738965123',//'https://music.apple.com/no/album/hjulene-p%C3%A5-bussen/1676160459?i=1676160460', //'https://apple.co/3K1bXS1?r=lp',
       'gad_id': 'AW-11140570940/UB6LCKbV65kYELy-nsAp',
       'gad_val': 0.01,
       'm_id': 3,
